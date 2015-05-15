@@ -3,7 +3,7 @@ var Hyperlogout = {
 
   /**
    * Default method for actions is GET.
-   * Default icon is 'globe'. Please see http://fontawesome.io/icons/
+   * Please check the supported icons here: http://fontawesome.io/icons/
    */
   sites: [
     {
