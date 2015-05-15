@@ -1,3 +1,56 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 12px;
+}
+
 .hidden {
   display: none;
+}
+
+h2 {
+  margin-top: 12px;
+  font-size: 22px;
+  color: #7f8c8d;
+}
+
+h2 i {
+  margin-right: 6px;
+  font-size: 75%;
+}
+
+.site-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.site {
+  width: 200px;
+  margin: 12px;
+  padding: 9px;
+  height: 120px;
+  border: 2px solid #f39c12; /* orange */
+  border-radius: 3px;
+  text-align: center;
+}
+
+.logged-out.site {
+  border-color: #2ecc71; /* emerald */
+}
+
+.site-status .fa {
+  font-size: 24px;
+}
+
+.logged-in .site-status .fa {
+  color: #f39c12; /* orange */
+
+}
+
+.logged-out .site-status .fa {
+  color: #2ecc71; /* emerald */
 }

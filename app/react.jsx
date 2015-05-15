@@ -1,4 +1,4 @@
-var SiteList, Site;
+var SiteList, Site, SiteIcon;
 
 SiteList = React.createClass({
   render: function () {
@@ -9,9 +9,9 @@ SiteList = React.createClass({
     });
 
     return (
-      <div className="site-list">
+      <ul className="site-list">
         { listNodes }
-      </div>
+      </ul>
     );
   }
 });
@@ -41,10 +41,23 @@ Site = React.createClass({
   },
   render: function () {
     return (
-      <div className="site">
-        <h1>{ this.props.data.name }</h1>
-        <span>{ this.state.loggedOut ? 'Ok!' : '...' }</span>
-      </div>
+      <li className={ 'site ' + (this.state.loggedOut ? 'logged-out' : 'logged-in') }>
+        <h2><SiteIcon icon={ this.props.data.icon } />{ this.props.data.name }</h2>
+        <span className="site-status">
+          <i className={ 'fa fa-fw fa-' + (this.state.loggedOut ? 'check' : 'clock-o') }></i></span>
+      </li>
+    );
+  }
+});
+
+SiteIcon = React.createClass({
+  render: function () {
+    if(!this.props.icon) {
+      return null;
+    }
+
+    return (
+      <i className={ 'fa fa-fw fa-' + this.props.icon }></i>
     );
   }
 });

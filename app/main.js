@@ -1,7 +1,10 @@
 var Hyperlogout = {
   iframeCount: 0,
 
-  // Default method for actions is GET.
+  /**
+   * Default method for actions is GET.
+   * Default icon is 'globe'. Please see http://fontawesome.io/icons/
+   */
   sites: [
     {
       name:"AOL",
@@ -33,6 +36,7 @@ var Hyperlogout = {
     },
     {
       name: "Delicious",
+      icon: "delicious",
       actions: [
         {
           url: "http://www.delicious.com/logout"
@@ -41,6 +45,7 @@ var Hyperlogout = {
     },
     {
       name: "DeviantART",
+      icon: "deviantart",
       actions: [
         {
           method: "post",
@@ -58,6 +63,7 @@ var Hyperlogout = {
     },
     {
       name: "Dropbox",
+      icon: "dropbox",
       actions: [
         {
           url: "https://www.dropbox.com/logout"
@@ -82,6 +88,7 @@ var Hyperlogout = {
     },
     {
       name: "GitHub",
+      icon: "github",
       actions: [
         {
           url: "https://github.com/logout"
@@ -149,7 +156,7 @@ var Hyperlogout = {
       ]
     },
     {
-      name: "NetFlix",
+      name: "Netflix",
       actions: [
         {
           url: "https://www.netflix.com/SignOut"
@@ -182,6 +189,7 @@ var Hyperlogout = {
     },
     {
       name: "Skype",
+      icon: "skype",
       actions: [
         {
           url: "https://secure.skype.com/account/logout"
@@ -198,6 +206,7 @@ var Hyperlogout = {
     },
     {
       name: "SoundCloud",
+      icon: "soundcloud",
       actions: [
         {
           url: "http://soundcloud.com/logout"
@@ -205,16 +214,12 @@ var Hyperlogout = {
       ]
     },
     {
-      name: "Steam Community",
+      name: "Steam",
+      icon: "steam",
       actions: [
         {
           url: "http://steamcommunity.com/?action=doLogout"
-        }
-      ]
-    },
-    {
-      name: "Steam Store",
-      actions: [
+        },
         {
           url: "http://store.steampowered.com/logout/"
         }
@@ -238,6 +243,7 @@ var Hyperlogout = {
     },
     {
       name: "Tumblr",
+      icon: "tumblr",
       actions: [
         {
           url: "http://www.tumblr.com/logout"
@@ -246,6 +252,7 @@ var Hyperlogout = {
     },
     {
       name: "Vimeo",
+      icon: "vimeo-square",
       actions: [
         {
           url: "http://vimeo.com/log_out"
@@ -278,6 +285,7 @@ var Hyperlogout = {
     },
     {
       name: "Wordpress",
+      icon: "wordpress",
       actions: [
         {
           url: "https://wordpress.com/wp-login.php?action=logout"
@@ -286,6 +294,7 @@ var Hyperlogout = {
     },
     {
       name: "Yahoo!",
+      icon: "yahoo",
       actions: [
         {
           url: "https://login.yahoo.com/config/login?.src=fpctx&logout=1&.direct=1&.done=" +
@@ -295,6 +304,7 @@ var Hyperlogout = {
     },
     {
       name: "YouTube",
+      icon: "youtube",
       actions: [
         {
           method: "post",
