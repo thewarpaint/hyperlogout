@@ -1,4 +1,4 @@
-var SiteList, Site;
+var SiteList, Site, SiteIcon;
 
 SiteList = React.createClass({displayName: "SiteList",
   render: function () {
@@ -9,7 +9,7 @@ SiteList = React.createClass({displayName: "SiteList",
     });
 
     return (
-      React.createElement("div", {className: "site-list"}, 
+      React.createElement("ul", {className: "site-list"}, 
          listNodes 
       )
     );
@@ -41,10 +41,23 @@ Site = React.createClass({displayName: "Site",
   },
   render: function () {
     return (
-      React.createElement("div", {className: "site"}, 
-        React.createElement("h1", null,  this.props.data.name), 
-        React.createElement("span", null,  this.state.loggedOut ? 'Ok!' : '...')
+      React.createElement("li", {className:  'site ' + (this.state.loggedOut ? 'logged-out' : 'logged-in') }, 
+        React.createElement("h2", null, React.createElement(SiteIcon, {icon:  this.props.data.icon}),  this.props.data.name), 
+        React.createElement("span", {className: "site-status"}, 
+          React.createElement("i", {className:  'fa fa-fw fa-' + (this.state.loggedOut ? 'check' : 'clock-o') }))
       )
+    );
+  }
+});
+
+SiteIcon = React.createClass({displayName: "SiteIcon",
+  render: function () {
+    if(!this.props.icon) {
+      return null;
+    }
+
+    return (
+      React.createElement("i", {className:  'fa fa-fw fa-' + this.props.icon})
     );
   }
 });
