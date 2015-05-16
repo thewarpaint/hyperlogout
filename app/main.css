@@ -21,6 +21,7 @@ h2 i {
 .site-list {
   padding: 0;
   margin: 0;
+  margin-bottom: 16px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -53,4 +54,22 @@ h2 i {
 
 .logged-out .site-status .fa {
   color: #2ecc71; /* emerald */
+}
+
+footer {
+  background-color: #ecf0f1; /* clouds */
+  padding: 24px;
+  text-align: center;
+}
+
+footer a, footer a:hover {
+  color: #3498db; /* peter river */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer a .fa {
+  position: relative;
+  font-size: 150%;
+  top: 2px;
 }
