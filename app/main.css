@@ -56,6 +56,13 @@ h2 i {
   color: #2ecc71; /* emerald */
 }
 
+#post-mortem {
+  margin: 0;
+  padding: 48px 24px;
+  color: white;
+  background-color: #2980b9; /* belize hole */
+}
+
 footer {
   background-color: #ecf0f1; /* clouds */
   padding: 24px;
@@ -72,4 +79,29 @@ footer a .fa {
   position: relative;
   font-size: 150%;
   top: 2px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
 }
