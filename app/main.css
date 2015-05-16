@@ -23,15 +23,27 @@ h2 i {
   margin: 0;
   margin-bottom: 16px;
   list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: row;
   flex-direction: row;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
 .site {
+  -webkit-box-flex: 0 0 200px;
+  -moz-box-flex: 0 0 200px;
   width: 200px;
   height: 120px;
+  -webkit-flex: 0 0 200px;
+  -ms-flex: 0 0 200px;
+  flex: 0 0 200px;
   margin: 12px;
   padding: 9px;
   border: 2px solid #f39c12; /* orange */
@@ -116,7 +128,12 @@ footer a .fa {
   }
 
   .site {
+    -webkit-box-flex: 0 0 160px;
+    -moz-box-flex: 0 0 160px;
     width: 160px;
+    -webkit-flex: 0 0 160px;
+    -ms-flex: 0 0 160px;
+    flex: 0 0 160px;
     height: 96px;
   }
 }
