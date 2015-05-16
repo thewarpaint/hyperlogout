@@ -231,6 +231,15 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Spotify",
+      icon: "spotify",
+      actions: [
+        {
+          url: "https://www.spotify.com/logout/"
+        }
+      ]
+    },
+    {
       name: "ThinkGeek",
       actions: [
         {

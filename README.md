@@ -15,6 +15,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Google](https://www.google.com/)
 + [Hacker News](https://news.ycombinator.com/news)
 + [Instagram](https://instagram.com/)
++ [Spotify](https://www.spotify.com/)
 + [Tumblr](https://www.tumblr.com/)
 + [Wikipedia](https://www.wikipedia.org/)
 + [YouTube](https://www.youtube.com/)
