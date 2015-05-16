@@ -129,6 +129,15 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Instagram",
+      icon: "instagram",
+      actions: [
+        {
+          url: "https://instagram.com/accounts/logout/"
+        }
+      ]
+    },
+    {
       name: "Instapaper",
       actions: [
         {
