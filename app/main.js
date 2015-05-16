@@ -87,15 +87,6 @@ var Hyperlogout = {
       ]
     },
     {
-      name: "GitHub",
-      icon: "github",
-      actions: [
-        {
-          url: "https://github.com/logout"
-        }
-      ]
-    },
-    {
       name: "Gmail",
       actions: [
         {
@@ -228,18 +219,6 @@ var Hyperlogout = {
       actions: [
         {
           url: "http://soundcloud.com/logout"
-        }
-      ]
-    },
-    {
-      name: "Steam",
-      icon: "steam",
-      actions: [
-        {
-          url: "http://steamcommunity.com/?action=doLogout"
-        },
-        {
-          url: "http://store.steampowered.com/logout/"
         }
       ]
     },
