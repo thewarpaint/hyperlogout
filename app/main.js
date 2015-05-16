@@ -95,6 +95,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "GoDaddy",
+      actions: [
+        {
+          url: "https://idp.godaddy.com/logout.aspx"
+        }
+      ]
+    },
+    {
       name: "Google",
       actions: [
         {

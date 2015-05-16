@@ -11,6 +11,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Amazon](https://www.amazon.com/)
 + [Dropbox](https://www.dropbox.com/)
 + [Gmail](https://mail.google.com/)
++ [GoDaddy](https://godaddy.com/)
 + [Google](https://www.google.com/)
 + [Hacker News](https://news.ycombinator.com/news)
 + [Instagram](https://instagram.com/)
