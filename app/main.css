@@ -63,6 +63,10 @@ h2 i {
   background-color: #2980b9; /* belize hole */
 }
 
+#post-mortem a, #post-mortem a:hover {
+  color: white;
+}
+
 footer {
   background-color: #ecf0f1; /* clouds */
   padding: 24px;
