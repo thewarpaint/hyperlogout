@@ -112,6 +112,15 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Hacker News",
+      icon: "hacker-news"
+      actions: [
+        {
+          url: "https://news.ycombinator.com/logout"
+        }
+      ]
+    },
+    {
       name: "Hulu",
       actions: [
         {
