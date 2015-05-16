@@ -1,6 +1,6 @@
 # Hyperlogout
 
-Shameless clone of [superlogout.com](superlogout.com) built to learn
+Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 [React.js](https://facebook.github.io/react/), [Gulp](http://gulpjs.com/) and the
 [Flexbox layout](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
