@@ -314,15 +314,25 @@ var Hyperlogout = {
     }
   ],
 
+  cleanup: function (elements) {
+    elements.forEach(function (element) {
+      element.parentNode.removeChild(element);
+    });
+  },
+
   get: function (url) {
     var defer = Q.defer(),
-        img = document.createElement("img");
+        img = document.createElement('img');
 
     img.onload = defer.resolve;
     img.onerror = defer.reject;
-    img.className = "hidden";
+    img.className = 'hidden';
     document.body.appendChild(img);
     img.src = url;
+
+    defer.promise.finally(function () {
+      Hyperlogout.cleanup([img]);
+    });
 
     return defer.promise;
   },
@@ -338,6 +348,11 @@ var Hyperlogout = {
     iframe.name = 'iframe' + Hyperlogout.iframeCount++;
     document.body.appendChild(iframe);
 
+    defer.promise.finally(function () {
+      Hyperlogout.cleanup([iframe, form]);
+    });
+
+    form.className = 'hidden';
     form.action = url;
     form.method = 'POST';
     form.target = iframe.name;
