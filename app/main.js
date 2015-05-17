@@ -222,15 +222,6 @@ var Hyperlogout = {
       ]
     },
     {
-      name: "SoundCloud",
-      icon: "soundcloud",
-      actions: [
-        {
-          url: "http://soundcloud.com/logout"
-        }
-      ]
-    },
-    {
       name: "Spotify",
       icon: "spotify",
       actions: [

@@ -13,22 +13,24 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Gmail](https://mail.google.com/)
 + [GoDaddy](https://godaddy.com/)
 + [Google](https://www.google.com/)
-+ [Hacker News](https://news.ycombinator.com/news)
++ [Hacker News](https://news.ycombinator.com/news/)
++ [Hulu](http://hulu.com/)
 + [Instagram](https://instagram.com/)
++ [Skype](http://http://www.skype.com/)
 + [Spotify](https://www.spotify.com/)
++ [Threadless](https://www.threadless.com/)
 + [Tumblr](https://www.tumblr.com/)
 + [Wikipedia](https://www.wikipedia.org/)
++ [Windows Live](https://login.live.com/)
++ [Yahoo](https://yahoo.com/)
 + [YouTube](https://www.youtube.com/)
-
-### Unconfirmed
-
-(wip)
 
 ### Removed (secure now)
 
 + [GitHub](https://github.com/)
 + [Steam Community](http://steamcommunity.com/)
 + [Steam Store](http://store.steampowered.com/)
++ [Soundcloud](https://soundcloud.com/)
 
 ## Contributing
 
