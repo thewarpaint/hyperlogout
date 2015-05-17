@@ -13,11 +13,11 @@ h2 {
   margin-top: 12px;
   font-size: 22px;
   color: $palette-asbestos;
-}
 
-h2 i {
-  margin-right: 6px;
-  font-size: 75%;
+  i {
+    margin-right: 6px;
+    font-size: 75%;
+  }
 }
 
 .site-list {
@@ -75,28 +75,28 @@ h2 i {
   padding: 48px 24px;
   color: white;
   background-color: $palette-belize-hole;
-}
 
-#post-mortem a, #post-mortem a:hover {
-  color: white;
+  a, a:hover {
+    color: white;
+  }
 }
 
 footer {
   background-color: $palette-clouds;
   padding: 24px;
   text-align: center;
-}
 
-footer a, footer a:hover {
-  color: $palette-peter-river;
-  text-decoration: none;
-  font-size: 18px;
-}
+  a, a:hover {
+    color: $palette-peter-river;
+    text-decoration: none;
+    font-size: 18px;
+  }
 
-footer a .fa {
-  position: relative;
-  font-size: 150%;
-  top: 2px;
+  a .fa {
+    position: relative;
+    font-size: 150%;
+    top: 2px;
+  }
 }
 
 .container {
