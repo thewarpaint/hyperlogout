@@ -1,4 +1,4 @@
-# Hyperlogout
+# Hyperlogout!
 
 Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 [React.js](https://facebook.github.io/react/), [Gulp](http://gulpjs.com/) and the
