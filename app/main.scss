@@ -1,3 +1,5 @@
+@import 'flat-ui-theme';
+
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   margin-top: 12px;
@@ -10,7 +12,7 @@ body {
 h2 {
   margin-top: 12px;
   font-size: 22px;
-  color: #7f8c8d;
+  color: $palette-asbestos;
 }
 
 h2 i {
@@ -46,13 +48,13 @@ h2 i {
   flex: 0 0 200px;
   margin: 12px;
   padding: 9px;
-  border: 2px solid #f39c12; /* orange */
+  border: 2px solid $palette-orange;
   border-radius: 3px;
   text-align: center;
 }
 
 .logged-out.site {
-  border-color: #2ecc71; /* emerald */
+  border-color: $palette-emerald;
 }
 
 .site-status .fa {
@@ -60,19 +62,19 @@ h2 i {
 }
 
 .logged-in .site-status .fa {
-  color: #f39c12; /* orange */
+  color: $palette-orange;
 
 }
 
 .logged-out .site-status .fa {
-  color: #2ecc71; /* emerald */
+  color: $palette-emerald;
 }
 
 #post-mortem {
   margin: 0;
   padding: 48px 24px;
   color: white;
-  background-color: #2980b9; /* belize hole */
+  background-color: $palette-belize-hole;
 }
 
 #post-mortem a, #post-mortem a:hover {
@@ -80,13 +82,13 @@ h2 i {
 }
 
 footer {
-  background-color: #ecf0f1; /* clouds */
+  background-color: $palette-clouds;
   padding: 24px;
   text-align: center;
 }
 
 footer a, footer a:hover {
-  color: #3498db; /* peter river */
+  color: $palette-peter-river;
   text-decoration: none;
   font-size: 18px;
 }
