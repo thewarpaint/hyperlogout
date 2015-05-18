@@ -1,5 +1,7 @@
 var Hyperlogout = {
   iframeCount: 0,
+  successCount: 0,
+  progressBar: null,
 
   /**
    * Default method for actions is GET.
@@ -331,6 +333,11 @@ var Hyperlogout = {
     }
   ],
 
+  plusOne: function () {
+    Hyperlogout.progressBar.style.width = Math.round((++Hyperlogout.successCount / Hyperlogout.sites.length)
+      * 100) + '%';
+  },
+
   cleanup: function (elements) {
     elements.forEach(function (element) {
       element.parentNode.removeChild(element);
@@ -390,3 +397,7 @@ var Hyperlogout = {
     return defer.promise;
   },
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+  Hyperlogout.progressBar = document.querySelector('#progress-bar .progress');
+});

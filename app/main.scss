@@ -2,11 +2,32 @@
 
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  margin-top: 12px;
 }
 
 .hidden {
   display: none;
+}
+
+#progress-bar {
+  background-color: $palette-silver;
+  margin-bottom: 12px;
+
+  .progress {
+    height: 100%;
+    width: 1%;
+    overflow: visible;
+    background-color: $palette-belize-hole;
+    transition: width 1s ease;
+  }
+
+  h1 {
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+  }
 }
 
 h2 {

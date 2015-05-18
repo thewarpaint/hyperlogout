@@ -29,6 +29,7 @@ Site = React.createClass({
 
     Q.allSettled(promises).done((function () {
       this.setState({ loggedOut: true });
+      Hyperlogout.plusOne();
     }).bind(this));
   },
   getInitialState: function () {
