@@ -20,6 +20,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Spotify](https://www.spotify.com/)
 + [Threadless](https://www.threadless.com/)
 + [Tumblr](https://www.tumblr.com/)
++ [Twitch](http://www.twitch.tv/)
 + [Wikipedia](https://www.wikipedia.org/)
 + [Windows Live](https://login.live.com/)
 + [Yahoo](https://yahoo.com/)

@@ -256,6 +256,15 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Twitch",
+      icon: "twitch",
+      actions: [
+        {
+          url: "http://www.twitch.tv/logout"
+        }
+      ]
+    },
+    {
       name: "Vimeo",
       icon: "vimeo-square",
       actions: [
