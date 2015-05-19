@@ -1,5 +1,27 @@
 @import 'flat-ui-theme';
 
+$site-desktop-width: 200px;
+$site-desktop-height: 120px;
+$site-mobile-width: 140px;
+$site-mobile-height: 84px;
+
+@mixin flex-fallback($grow, $shrink, $basis) {
+  -webkit-box-flex: $grow $shrink $basis;
+     -moz-box-flex: $grow $shrink $basis;
+             width: $basis;
+      -webkit-flex: $grow $shrink $basis;
+          -ms-flex: $grow $shrink $basis;
+              flex: $grow $shrink $basis;
+}
+
+@mixin flex {
+  display: -webkit-box;
+  display:    -moz-box;
+  display:     -ms-flexbox;
+  display: -webkit-flex;
+  display:         flex;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -46,11 +68,7 @@ h2 {
   margin: 0;
   margin-bottom: 16px;
   list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  @include flex;
   -webkit-flex-direction: row;
   flex-direction: row;
   -webkit-flex-wrap: wrap;
@@ -60,13 +78,8 @@ h2 {
 }
 
 .site {
-  -webkit-box-flex: 0 0 200px;
-  -moz-box-flex: 0 0 200px;
-  width: 200px;
-  height: 120px;
-  -webkit-flex: 0 0 200px;
-  -ms-flex: 0 0 200px;
-  flex: 0 0 200px;
+  @include flex-fallback(0, 0, $site-desktop-width);
+  height: $site-desktop-height;
   margin: 12px;
   padding: 9px;
   border: 2px solid $palette-orange;
@@ -150,12 +163,7 @@ footer {
   }
 
   .site {
-    -webkit-box-flex: 0 0 160px;
-    -moz-box-flex: 0 0 160px;
-    width: 160px;
-    -webkit-flex: 0 0 160px;
-    -ms-flex: 0 0 160px;
-    flex: 0 0 160px;
-    height: 96px;
+    @include flex-fallback(0, 0, $site-mobile-width);
+    height: $site-mobile-height;
   }
 }
