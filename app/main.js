@@ -215,6 +215,17 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Salesforce",
+      actions: [
+        {
+          url: "https://na5.salesforce.com/secur/logout.jsp"
+        },
+        {
+          url: "https://help.salesforce.com/HTLogOut"
+        }
+      ]
+    },
+    {
       name: "Skype",
       icon: "skype",
       actions: [
