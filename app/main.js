@@ -29,6 +29,15 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "BitBucket",
+      icon: "bitbucket",
+      actions: [
+        {
+          url: "https://bitbucket.org/account/signout/"
+        }
+      ]
+    },
+    {
       name: "Blogger",
       actions: [
         {

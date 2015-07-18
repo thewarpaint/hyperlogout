@@ -12,6 +12,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 ### Confirmed
 
 + [Amazon](https://www.amazon.com/)
++ [BitBucket](https://bitbucket.org/)
 + [Concur](https://www.concur.com/)
 + [Dropbox](https://www.dropbox.com/)
 + [Gmail](https://mail.google.com/)
