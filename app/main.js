@@ -37,6 +37,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Concur",
+      actions: [
+        {
+          url: "https://www.concursolutions.com/errors/loggedout.asp"
+        }
+      ]
+    },
+    {
       name: "Delicious",
       icon: "delicious",
       actions: [
