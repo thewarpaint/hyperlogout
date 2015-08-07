@@ -261,6 +261,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Talentguide",
+      actions: [
+        {
+          url: "http://www.talentguide.co/app/logout"
+        }
+      ]
+    },
+    {
       name: "ThinkGeek",
       actions: [
         {

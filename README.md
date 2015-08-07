@@ -24,6 +24,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Salesforce](http://www.salesforce.com/)
 + [Skype](http://http://www.skype.com/)
 + [Spotify](https://www.spotify.com/)
++ [Talentguide](http://www.talentguide.co/)
 + [Threadless](https://www.threadless.com/)
 + [Tumblr](https://www.tumblr.com/)
 + [Twitch](http://www.twitch.tv/)
