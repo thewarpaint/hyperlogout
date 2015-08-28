@@ -164,6 +164,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Interview Cake",
+      actions: [
+        {
+          url: "https://www.interviewcake.com/auth/logout/?next=/"
+        }
+      ]
+    },
+    {
       name: "Linode",
       actions: [
         {
