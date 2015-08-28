@@ -81,6 +81,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Drone",
+      actions: [
+        {
+          url: "https://drone.io/logout"
+        }
+      ]
+    },
+    {
       name: "Dropbox",
       icon: "dropbox",
       actions: [
