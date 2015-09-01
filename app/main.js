@@ -46,6 +46,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Change.org",
+      actions: [
+        {
+          url: "https://www.change.org/logout"
+        }
+      ]
+    },
+    {
       name: "Concur",
       actions: [
         {
