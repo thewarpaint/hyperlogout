@@ -256,6 +256,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Rdio",
+      actions: [
+        {
+          url: "http://www.rdio.com/logout/"
+        }
+      ]
+    },
+    {
       name: "Salesforce",
       actions: [
         {

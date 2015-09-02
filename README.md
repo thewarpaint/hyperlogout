@@ -25,6 +25,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Hulu](http://hulu.com/)
 + [Instagram](https://instagram.com/)
 + [Interview Cake](https://www.interviewcake.com/)
++ [Rdio](http://www.rdio.com/)
 + [Salesforce](http://www.salesforce.com/)
 + [Skype](http://http://www.skype.com/)
 + [Spotify](https://www.spotify.com/)
