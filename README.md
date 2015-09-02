@@ -11,6 +11,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 
 ### Confirmed
 
++ [Airbnb](https://www.airbnb.com/)
 + [Amazon](https://www.amazon.com/)
 + [BitBucket](https://bitbucket.org/)
 + [Change.org](https://www.change.org/)
@@ -35,6 +36,8 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Windows Live](https://login.live.com/)
 + [Yahoo](https://yahoo.com/)
 + [YouTube](https://www.youtube.com/)
+
+Apparently, if you use Facebook to log in to Airbnb, we can log you out from it as well (?).
 
 ### Removed (secure now)
 

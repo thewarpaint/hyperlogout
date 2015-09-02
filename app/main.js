@@ -9,6 +9,14 @@ var Hyperlogout = {
    */
   sites: [
     {
+      name: "Airbnb",
+      actions: [
+        {
+          url: "https://www.airbnb.com/logout"
+        }
+      ]
+    },
+    {
       name:"AOL",
       actions: [
         {
