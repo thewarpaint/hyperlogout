@@ -272,6 +272,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "RunKeeper",
+      actions: [
+        {
+          url: "https://runkeeper.com/logout/"
+        }
+      ]
+    },
+    {
       name: "Salesforce",
       actions: [
         {
