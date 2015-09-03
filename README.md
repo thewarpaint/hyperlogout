@@ -35,6 +35,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Threadless](https://www.threadless.com/)
 + [Tumblr](https://www.tumblr.com/)
 + [Twitch](http://www.twitch.tv/)
++ [Uber](https://uber.com/)
 + [Wikipedia](https://www.wikipedia.org/)
 + [Windows Live](https://login.live.com/)
 + [Yahoo](https://yahoo.com/)

@@ -359,6 +359,17 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Uber",
+      actions: [
+        {
+          url: "https://riders.uber.com/logout"
+        },
+        {
+          url: "https://partners.uber.com/logout"
+        }
+      ]
+    },
+    {
       name: "Vimeo",
       icon: "vimeo-square",
       actions: [
