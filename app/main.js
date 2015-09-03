@@ -37,6 +37,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Bambuser",
+      actions: [
+        {
+          url: "http://bambuser.com/logout/"
+        }
+      ]
+    },
+    {
       name: "BitBucket",
       icon: "bitbucket",
       actions: [

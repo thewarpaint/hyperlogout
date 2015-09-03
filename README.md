@@ -13,6 +13,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 
 + [Airbnb](https://www.airbnb.com/)
 + [Amazon](https://www.amazon.com/)
++ [Bambuser](http://bambuser.com/)
 + [BitBucket](https://bitbucket.org/)
 + [Change.org](https://www.change.org/)
 + [Concur](https://www.concur.com/)
