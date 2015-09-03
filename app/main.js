@@ -213,6 +213,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Kickstarter",
+      actions: [
+        {
+          url: "https://www.kickstarter.com/logout/"
+        }
+      ]
+    },
+    {
       name: "Linode",
       actions: [
         {
