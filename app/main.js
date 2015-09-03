@@ -396,6 +396,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Volaris VClub",
+      actions: [
+        {
+          url: "https://reservaciones.volaris.com/Member/Logout/"
+        }
+      ]
+    },
+    {
       name: "Wikipedia",
       actions: [
         {
