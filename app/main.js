@@ -70,6 +70,15 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "CodePen",
+      icon: "codepen",
+      actions: [
+        {
+          url: "http://codepen.io/login/logout/"
+        }
+      ]
+    },
+    {
       name: "Concur",
       actions: [
         {
