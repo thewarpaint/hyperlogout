@@ -52,6 +52,7 @@ Apparently, if you use Facebook to log in to Airbnb, we can log you out from it 
 + [Steam Community](http://steamcommunity.com/)
 + [Steam Store](http://store.steampowered.com/)
 + [Soundcloud](https://soundcloud.com/)
++ [Vimeo](https://vimeo.com/)
 
 ## Contributing
 

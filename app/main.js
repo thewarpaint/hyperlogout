@@ -387,15 +387,6 @@ var Hyperlogout = {
       ]
     },
     {
-      name: "Vimeo",
-      icon: "vimeo-square",
-      actions: [
-        {
-          url: "http://vimeo.com/log_out"
-        }
-      ]
-    },
-    {
       name: "Volaris VClub",
       actions: [
         {
