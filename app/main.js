@@ -106,6 +106,15 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Digg",
+      icon: "digg",
+      actions: [
+        {
+          url: "http://digg.com/logout"
+        }
+      ]
+    },
+    {
       name: "DreamHost",
       actions: [
         {

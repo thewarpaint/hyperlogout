@@ -18,6 +18,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Change.org](https://www.change.org/)
 + [CodePen](http://codepen.io/)
 + [Concur](https://www.concur.com/)
++ [Digg](http://digg.com/)
 + [Drone](https://drone.io/)
 + [Dropbox](https://www.dropbox.com/)
 + [Gmail](https://mail.google.com/)
