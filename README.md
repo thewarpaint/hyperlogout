@@ -35,6 +35,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [RunKeeper](https://runkeeper.com/)
 + [Salesforce](http://www.salesforce.com/)
 + [Skype](http://http://www.skype.com/)
++ [SpeedCurve](https://speedcurve.com/)
 + [Spotify](https://www.spotify.com/)
 + [Talentguide](http://www.talentguide.co/)
 + [Threadless](https://www.threadless.com/)

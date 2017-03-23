@@ -342,6 +342,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "SpeedCurve",
+      actions: [
+        {
+          url: "https://speedcurve.com/logout.php"
+        }
+      ]
+    },
+    {
       name: "Spotify",
       icon: "spotify",
       actions: [
