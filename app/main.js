@@ -282,6 +282,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Optimizely",
+      actions: [
+        {
+          url: "https://app.optimizely.com/account/signout?landing_page=/v2"
+        }
+      ]
+    },
+    {
       name: "Photobucket",
       actions: [
         {
