@@ -87,6 +87,15 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Datadog",
+      actions: [
+        {
+          method: "post",
+          url: "https://app.datadoghq.com/account/logout"
+        }
+      ]
+    },
+    {
       name: "Delicious",
       icon: "delicious",
       actions: [
