@@ -31,6 +31,7 @@ Shameless clone of [superlogout.com](http://superlogout.com) built to learn
 + [Kickstarter](https://www.kickstarter.com/)
 + [Netflix](https://www.netflix.com/)
 + [Optimizely](https://www.optimizely.com/)
++ [PhraseApp](https://phraseapp.com/)
 + [Rdio](http://www.rdio.com/)
 + [RunKeeper](https://runkeeper.com/)
 + [Salesforce](http://www.salesforce.com/)

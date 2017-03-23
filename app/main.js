@@ -298,6 +298,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "PhraseApp",
+      actions: [
+        {
+          url: "https://phraseapp.com/en/account/logout"
+        }
+      ]
+    },
+    {
       name: "Rdio",
       actions: [
         {
