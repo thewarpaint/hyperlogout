@@ -333,6 +333,14 @@ var Hyperlogout = {
       ]
     },
     {
+      name: "Sentry",
+      actions: [
+        {
+          url: "https://sentry.io/auth/logout/"
+        }
+      ]
+    },
+    {
       name: "Skype",
       icon: "skype",
       actions: [
