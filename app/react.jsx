@@ -63,7 +63,7 @@ SiteIcon = React.createClass({
   }
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('DOMContentLoaded', function () {
   React.render(
     <SiteList sites={ Hyperlogout.sites } />,
     document.getElementById('content')

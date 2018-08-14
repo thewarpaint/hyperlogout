@@ -24,6 +24,7 @@ $site-mobile-height: 84px;
 
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .hidden {
@@ -43,7 +44,7 @@ body {
   }
 
   h1 {
-    margin: 0px;
+    margin: 0;
     padding: 12px;
     color: white;
     font-family: "Lobster", sans-serif;
@@ -53,7 +54,7 @@ body {
 }
 
 h2 {
-  margin-top: 12px;
+  margin: 0;
   font-size: 22px;
   color: $palette-asbestos;
 
@@ -79,9 +80,11 @@ h2 {
 
 .site {
   @include flex-fallback(0, 0, $site-desktop-width);
+  @include flex;
+  box-sizing: border-box;
   height: $site-desktop-height;
   margin: 12px;
-  padding: 9px;
+  padding: 1rem .5rem;
   border: 2px solid $palette-orange;
   border-radius: 3px;
   text-align: center;
@@ -159,7 +162,7 @@ footer {
 
 @media (max-width: 767px) {
   h2 {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .site {
